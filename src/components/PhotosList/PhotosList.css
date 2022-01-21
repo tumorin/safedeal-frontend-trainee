@@ -1,0 +1,11 @@
+.main-container {
+    margin: auto;
+    display: grid;
+    width: 100%;
+    grid-template-columns:  repeat(auto-fill, minmax(350px,1fr));
+}
+
+.main-container-element:hover {
+    transform: scale(1.2);
+    cursor:pointer;
+}
